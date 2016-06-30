@@ -12,7 +12,7 @@ Sage WordPress starter theme without Bootstrap.
     https://github.com/roots/sage.git <theme_name>
     ```
 
-2. Edit *<theme_root>/bower.json*, remove all Bootstrap-related depedencies and overrides; the modifed file should look as follows:
+2. Edit *bower.json*, remove all Bootstrap-related depedencies and overrides; the modifed file should look as follows:
     ```
     {
         "name": "sage",
@@ -29,14 +29,14 @@ Sage WordPress starter theme without Bootstrap.
     }
     ```
 3. Blank out the contents of the following files, **do not** delete the files themselves:
-    * <theme_root>/assets/styles/_variables.scss
-    * <theme_root>/assets/styles/_comments.scss
-    * <theme_root>/assets/styles/_forms.scss
-    * <theme_root>/assets/styles/_grid.scss
-    * <theme_root>/assets/styles/_wp-classes.scss
+    * assets/styles/_variables.scss
+    * assets/styles/_comments.scss
+    * assets/styles/_forms.scss
+    * assets/styles/_grid.scss
+    * assets/styles/_wp-classes.scss
 
 4. Re-add the *WordPress Generated Classes* from the [WordPress Codex](https://codex.wordpress.org/CSS#WordPress_Generated_Classes) to the following file:
-    * <theme_root>/assets/styles/_wp-classes.scss
+    * assets/styles/_wp-classes.scss
 
 5. Run ```bower prune``` and ```gulp``` in the theme's root directory
 
