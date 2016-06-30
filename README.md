@@ -11,6 +11,7 @@ Sage WordPress starter theme without Bootstrap.
     ```
     https://github.com/roots/sage.git <theme_name>
     ```
+
 2. Edit *<theme_root>/bower.json*, remove all Bootstrap-related depedencies and overrides; the modifed file should look as follows:
     ```
     {
